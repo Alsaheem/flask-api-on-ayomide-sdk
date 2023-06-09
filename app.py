@@ -5,7 +5,7 @@ from ayomide_sdk.rest import Client
 app = Flask(__name__)
 
 version = "v2"
-api_key = "ltLgmBHmMRdwJkE0zWFm"
+api_key = "API-KEY"
 client = Client(version=version, api_key=api_key)
 
 
